@@ -1,0 +1,273 @@
+/* ORDER h1 h2 p classes idss  */
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #0b0b0d;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-left: 1%;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2.7rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  padding-left: 1%;
+}
+
+h6, h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  padding-top: 3%;
+  color: #52575D
+}
+
+p {
+  color: #52575D;
+}
+
+li {
+  display: inline;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.title-content {
+  padding-top: 23%;
+  font-size: 65px;
+}
+
+.title-img {
+  padding: 34px 0 34px 75px
+}
+
+.icon {
+  padding-bottom: 5%;
+}
+
+.icon-color:hover {
+  color: #686d76;
+}
+
+.button {
+  margin-left: 2%;
+}
+
+.testimonal-carousel-item {
+  padding: 7% 15%;
+  height: 450px;
+}
+
+.cart-carousel-item {
+  padding: 2% 15%;
+}
+
+.card-body {
+  padding: 1% 5%;
+}
+
+.item-title {
+  text-align: left;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 30px; */
+  font-weight: 900;
+  /* font-size: 1.1rem;
+  line-height: 1.5; */
+}
+
+.btn-outline-light {
+  color: #52575D;
+  border-color: white;
+  border-radius: 100%
+}
+
+/* .btn:disabled {
+    opacity: 1;
+} */
+.price {
+  padding-top: 0.225rem;
+}
+
+.btn-addcart {
+  color: #374955;
+  width: 100px;
+  font-size: 0.78rem;
+}
+
+.hide-addcart {
+  display: none;
+}
+
+.action-item {
+  color: #374955;
+  font-size: 0.97rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+
+/* .show-addcart{
+  display: inline-block;
+} */
+/* bootstrap .btn */
+.btn {
+  padding: .4rem .67rem;
+}
+
+.cart-icon {
+  padding-top: .175rem;
+  color: grey;
+}
+
+.cart-icon:hover {
+  color: #374955;
+}
+
+.display-contactdetails {
+  display: inline;
+}
+
+/* images */
+.imagebox-container {
+  position: relative;
+  padding: 2rem 5rem;
+}
+
+.img-thumbnail {
+  width: 120%;
+  height: 10rem;
+}
+
+.checkout-heading {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  padding: 0 1%;
+}
+
+.items-table {
+  padding: 2%
+}
+
+.basket-labels {
+  border-top: 1px solid #222222;
+  border-bottom: 1px solid #222222;
+  margin-top: 1rem;
+  padding-top: 12px;
+  text-align: left;
+  background-color: #eeeeee;
+  color: white;
+}
+
+.basket-items {
+  margin-top: 16px;
+}
+
+.bottom-list {
+  border-top: 1px solid #222222;
+}
+
+.checkout-btn {
+  margin: auto;
+  display: block;
+}
+
+#title {
+  background-color: #222222;
+  color: #eeeeee;
+}
+
+#features {
+  background-color: #eeeeee;
+  text-align: center;
+  padding: 10%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #0b0b0d;
+  color: #eeeeee;
+}
+
+#shopping-cart {
+  padding: 3% 0 3% 0;
+  text-align: center;
+  background-color: #eeeeee;
+  color: #0b0b0d;
+}
+
+#CTA {
+  text-align: center;
+  background-color: #0b0b0d;
+  color: #eeeeee;
+  padding: 4% 19%;
+}
+
+#checkout {
+  background-color: #eeeeee;
+  /* text-align: center; */
+}
+
+.carousel-cart-prev {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-cart-next {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/* change fill=%23fff' for black*/
+@media (max-width: 900px) and (min-width: 600px) {
+  .h1 {
+    text-align: center;
+  }
+
+  .title-img {
+    align: center;
+  }
+}
+
+@media (max-width: 599px) and (min-width: 300px) {
+  .h1 {
+    text-align: center;
+  }
+}
+
+.badge {
+  position: absolute;
+  right: 13px;
+  top: 9.5px;
+  border-radius: 100%;
+}
+
+.fa-circle {
+  color: #ec5858;
+  border-style: hidden;
+}
+
+.badge-light {
+  background-color: unset;
+}
